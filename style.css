@@ -1,0 +1,187 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    color: inherit;
+    transition: all 0.1s ease-in-out;
+    list-style: none;
+}
+
+/* normalize */
+.container {
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+:root {
+    --primary-color: #00EEFF;
+    --body-color: #1F242D;
+    --lion-color: #390094;
+}
+
+body {
+    color: #ffffff;
+    background: var(--body-color);
+}
+
+ul li {
+    font-size: 17px;
+    line-height: 25.5px;
+}
+
+ul li:hover {
+    color: var(--primary-color);
+}
+
+/* typography */
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72.8px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 67.5px;
+
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+}
+
+h2 span,
+h3 span {
+    color: var(--primary-color);
+}
+
+button {
+    background: var(--primary-color);
+    color: #323946;
+    box-shadow: 0px 0px 10px 0px var(--primary-color);
+    padding: 11px 28px;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.ul_first {
+    display: flex;
+    gap: 42px;
+}
+
+.main-wrapper {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.main_left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+
+.logo {
+    margin-top: 51px;
+
+}
+
+.img_siu {
+    margin-right: 17px;
+    padding: 1px 2px;
+    border: solid var(--lion-color) 1px;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.img_siu:hover {
+    box-shadow: 0px 0px 10px 0px var(--primary-color);
+    margin-right: 17px;
+    padding: 1px 2px;
+    border: solid var(--primary-color) 1px;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.p_siu {
+    width: 636.24px;
+    height: 23px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.aboos {
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .aboos {
+        display: flex;
+    }
+
+    .shuxrat {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+
+}
+
+
+
+.real{
+    display: flex;
+    justify-content: center;
+}
+.otaaaaaaa{
+    margin-top:220px;
+    margin-right: 100px;
+}
